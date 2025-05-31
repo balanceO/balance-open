@@ -1,0 +1,9 @@
+{
+  "commitish" : "a6d2749a8c4a1722363cce19672e006e0a4cb70d",
+  "iOS" : [
+    {
+      "name" : "NSDateTimeAgo",
+      "hash" : "7ff7534c5f32802245d56c4527ba20d744f2cd9c672309706f32fcfdcb362557"
+    }
+  ]
+}

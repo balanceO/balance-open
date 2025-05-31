@@ -1,0 +1,79 @@
+{
+    "address": "0x3c44151439965c709f7d79ceebaeda5bc5fba9ca",
+    "ETH": {
+    "balance": 2.629951259,
+    "totalIn": 9.486951259,
+    "totalOut": 6.856999999999999
+    },
+    "countTxs": 4,
+    "tokens": [
+    {
+        "tokenInfo": {
+        "address": "0xe41d2489571d322189246dafa5ebde1f4699f498",
+        "name": "0x Protocol Token",
+        "decimals": "18",
+        "symbol": "ZRX",
+        "totalSupply": "1000000000000000000000000000",
+        "owner": "0x",
+        "lastUpdated": 1504864755,
+        "issuancesCount": 0,
+        "holdersCount": 14,
+        "price": {
+            "rate": "0.32",
+            "diff": -28.82,
+            "ts": 1504803294,
+            "currency": "USD"
+        }
+        },
+        "balance": 3.94402043750082e+22,
+        "totalIn": 0,
+        "totalOut": 0
+    },
+   {
+       "tokenInfo": {
+       "address": "0xf7b098298f7c69fc14610bf71d5e02c60792894c",
+       "name": "Guppy",
+       "decimals": 3,
+       "symbol": "GUP",
+       "totalSupply": "98855149620",
+       "owner": "0x",
+       "lastUpdated": 1508941835,
+       "totalIn": 155247244020,
+       "totalOut": 155247244020,
+       "issuancesCount": 0,
+       "holdersCount": 1853,
+       "price": {
+           "rate": "0.137338",
+           "diff": -8.53,
+           "diff7d": 9.78,
+           "ts": "1508945956",
+           "marketCapUsd": "10300350.0",
+           "availableSupply": "75000000.0",
+           "volume24h": "607852.0",
+           "currency": "USD"
+       }
+   },
+       "balance": 91990,
+       "totalIn": 91990,
+       "totalOut": 0
+   },
+       {
+           "tokenInfo": {
+           "address": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
+           "name": "Kyber Network Crystal",
+           "decimals": 18,
+           "symbol": "KNC",
+           "totalSupply": "226000000000000000000000000",
+           "owner": "0xfdf28bf25779ed4ca74e958d54653260af604c20",
+           "lastUpdated": 1505463876,
+           "issuancesCount": 0,
+           "holdersCount": 2,
+           "price": false
+       },
+           "balance": 2.16e+21,
+           "totalIn": 0,
+           "totalOut": 0
+       }
+    ]
+}
+

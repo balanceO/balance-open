@@ -1,0 +1,10 @@
+github "datatheorem/TrustKit" "master"
+github "SnapKit/SnapKit" "master"
+github "DaveWoodCom/XCGLogger" "master"
+github "shpakovski/MASShortcut" "master"
+github "marmelroy/Zip" "master"
+github "balancemymoney/NSDate-TimeAgo" "master"
+github "balancemymoney/JMSRangeSlider" "master"
+github "SVProgressHUD/SVProgressHUD"
+github "AgileBits/onepassword-extension" "add-framework-support"
+github "ReactiveX/RxSwift" ~> 4.0

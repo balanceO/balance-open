@@ -1,0 +1,9 @@
+{
+  "commitish" : "50d72f7fc58cbe2766342018f4023fbed6435cc1",
+  "iOS" : [
+    {
+      "name" : "TrustKit",
+      "hash" : "45de46646dc8ba70dd8f7c6c6126fae7b2e105e076f8d1817ad6f0cb9ba7281f"
+    }
+  ]
+}
